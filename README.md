@@ -1,9 +1,14 @@
-# api documentation for  [thenify (v3.2.1)](https://github.com/thenables/thenify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-thenify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-thenify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-thenify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-thenify)
+# npmdoc-thenify
+
+#### api documentation for  [thenify (v3.2.1)](https://github.com/thenables/thenify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-thenify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-thenify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-thenify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-thenify)
+
 #### Promisify a callback-based function
 
-[![NPM](https://nodei.co/npm/thenify.png?downloads=true)](https://www.npmjs.com/package/thenify)
+[![NPM](https://nodei.co/npm/thenify.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/thenify)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-thenify/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-thenify_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-thenify/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-thenify/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-thenify/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-thenify/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-thenify/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-thenify/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Jonathan Ong",
-        "email": "me@jongleberry.com",
         "url": "http://jongleberry.com"
     },
     "bugs": {
@@ -53,21 +57,17 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "jongleberry",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jongleberry"
         },
         {
-            "name": "dead-horse",
-            "email": "dead_horse@qq.com"
+            "name": "dead-horse"
         },
         {
-            "name": "dead_horse",
-            "email": "dead_horse@qq.com"
+            "name": "dead_horse"
         }
     ],
     "name": "thenify",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/thenables/thenify.git"
@@ -79,30 +79,6 @@
     },
     "version": "3.2.1"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module thenify](#apidoc.module.thenify)
-1.  [function <span class="apidocSignatureSpan">thenify.</span>withCallback ($$__fn__$$)](#apidoc.element.thenify.withCallback)
-
-
-
-# <a name="apidoc.module.thenify"></a>[module thenify](#apidoc.module.thenify)
-
-#### <a name="apidoc.element.thenify.withCallback"></a>[function <span class="apidocSignatureSpan">thenify.</span>withCallback ($$__fn__$$)](#apidoc.element.thenify.withCallback)
-- description and source-code
-```javascript
-withCallback = function ($$__fn__$$) {
-  assert(typeof $$__fn__$$ === 'function')
-  return eval(createWrapper($$__fn__$$.name, true))
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
